@@ -9,9 +9,9 @@ function addTask() {
     li.textContent = inputBox.value;
     listContainer.appendChild(li);
 
-    // Add a delete button for each task
+    
     let span = document.createElement("span");
-    span.textContent = "\u00d7"; // '×' symbol
+    span.textContent = "\u00d7";
     li.appendChild(span);
   }
   inputBox.value = "";
