@@ -5,7 +5,7 @@
 }
 .container{
     display: flex;
-    flex-direction: column;
+ 
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -109,6 +109,6 @@ ul li span:hover{
     cursor: pointer;
     margin-left: 100px;
     margin-bottom: 5px;
-      display:none;
+     display:none;
     
 }  
