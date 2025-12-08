@@ -5,6 +5,7 @@
 }
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -95,3 +96,19 @@ ul li span:hover{
     background: #edeef0;
     border-radius: 50%;
 }
+.all-deleteBtn{
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ff5945;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-bottom: 5px;
+      display:none;
+    
+}  
